@@ -1,0 +1,706 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header1{
+    display:flex;
+    border-bottom:1px solid rgb(207, 196, 196); 
+   
+
+}
+#logo{
+   margin-left:100px;
+  
+  
+}
+.logo{
+ position:fixed;
+   top:0;
+    z-index: 30;
+}
+h4{
+    margin-left:300px;
+    margin-top:10px;
+    color:orange;
+
+}
+.location{
+    margin:5px 0 5px 2px;
+    background-color:rgb(255, 252, 252);
+    border:0.1px thin black;
+    border-radius:5px;
+}
+
+.offer{
+    padding:8px 5px 0 10px;
+    background-color: #fbd020; 
+    /* border: 2px solid black; */
+    margin-left: 300px;
+    color:white;
+
+}
+.welcome{
+    padding:8px 5px 0 10px;
+    background-color:#603b6d;
+    /* border: 2px solid black; */
+    color:white;
+}
+.app{
+    padding:4px 40px 4px 30px;
+    margin-left:70px;
+    background-color:white;
+    border:none;
+    cursor: pointer;
+}
+.shadow{
+    height:0px;
+    width:100%;
+    border-bottom: 1px solid grey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav{
+    /* border:2px solid black; */
+    height:50px;
+    width:100%;
+    margin-top:25px;
+    position:sticky;
+    top:0px;
+    float :none;
+    background-color:white;
+    z-index: 2;
+    padding:10px 0 0 0;
+
+}
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 100px;
+    margin-top: 9px;
+}
+li{
+    list-style :none;
+    /* border:1px solid black; */
+    
+}
+.nav-a{
+    text-decoration:none;
+    font-size:20px;
+    color:rgb(107, 68, 68);
+    margin: 10px 10px 2px 10px;
+    
+
+}
+.nav-a:hover{
+    background-color:grey;
+    border-radius:10px;
+    padding:10px 15px 10px 15px;
+    font-size:20px;
+    color:white;
+    transition: all ease-in-out 0.5s;
+
+}
+.home{
+    display:flex;
+    /* border:2px solid red; */
+}
+.image1{
+    height:300px;
+    width: 450px;
+    /* border:2px solid black; */
+    margin:15px 20px 15px 40px;
+    background:url(Images/box1.jpg);
+    background-size:cover;
+    cursor: pointer;
+   
+}
+.image2{
+    height:300px;
+    width: 450px;
+    /* border:2px solid black; */
+    margin:15px 20px 15px 10px;
+    background:url(Images/box2.jpg);
+    background-size:cover;
+    cursor: pointer;
+}
+.image3{
+    height:300px;
+    width: 450px;
+    /* border:2px solid black; */
+    margin:15px 20px 15px 10px;
+    background:url(Images/box3.jpg);
+    background-size:cover;
+    cursor: pointer;
+
+}
+.line{
+    border-bottom: 1px solid rgb(189, 185, 185); 
+    display:flex;
+    height:55px;
+    width:100%;
+    align-items:center;
+    position:sticky;
+    top:50px;
+    float :none;
+    background-color:white;
+    z-index: 2;
+    
+    }
+
+    
+
+.catogery{
+   
+    display:flex;
+    height:30px;
+    width:70px;
+    font-size: larger;
+    margin-left:20px;
+   
+}
+.veg{
+    border: 1px solid black; 
+    display:flex;
+    height:30px;
+    width:50px;
+    margin-left:60%;
+    border-radius:5px;
+   
+
+}
+.price{
+    border:  1px solid black; 
+    display:flex;
+    height:30px;
+    width:50px;
+    margin-left: 10%;
+    border-radius:20px;
+}
+.filters{
+   
+    display:flex;
+    height:30px;
+    width:60px;
+    margin-left: 10%;
+   
+   
+
+}
+.vegbtn{
+    padding:6px 10px 6px 10px;
+    border:none;
+    background-color:  white;
+    border-radius:20px;
+    cursor: pointer;
+
+}
+.pricebtn{
+    padding:6px 10px 6px 10px;
+    border:none;
+    background-color:  white;
+    border-radius:20px;
+    cursor: pointer;
+
+}
+.filbtn{
+    padding:6px 10px 6px 10px;
+    background-color: white;
+    border-radius:20px;
+    border-color: rgb(165, 162, 162); 
+   cursor: pointer;
+   
+}
+.veg:active{
+    border-color:green;
+}
+.price:active{
+    border-color:rgb(247, 99, 7);
+}
+
+.menu{
+    width:18%;
+    height: 100%;
+    background-color:white;
+    margin:20px 10px 0 25px;
+   
+   
+   
+}
+ol li{
+    padding:13px 4px 13px 2px
+
+}
+
+.dishes{
+    color:#4A4A4A;
+    font-size:14px;
+    text-decoration: none;
+    padding-bottom:5px;
+   
+}
+.dishes:hover{
+    text-decoration:underline red;
+    font-size:20px;
+}
+.images{
+    width: 75%;
+    height: 2500px;
+    /* border: 2px solid black; */
+    display:flex;
+    position:absolute;
+    right: 0%;
+    top:545px;
+   
+}
+h1{
+    display: block;
+    width:100%;
+    font-weight:600px ;
+}
+.r1{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    position:absolute;
+    left:0;
+    top:40px;
+}
+h6{
+    width:270px;
+    height:24px;
+    padding-left:5px;
+}
+.photo{
+   width:270px; 
+   height:180px;
+   /* border:2px solid black; */
+   background: url(Images/surprise1.jpg);
+   background-size :cover;
+   background-position: center;
+   cursor:pointer;
+   transition: transform 0.3s ease-in-out;
+   overflow:hidden;
+   border-radius: 8px;
+   
+}
+h3{
+    width:270px;
+    height:30px;
+    margin:10px 2px 5px 0;
+    
+}
+.true{
+    width:42px;
+    height:22px;
+    margin:0 5px 0 0;
+    font-weight: 600;
+    font-size: larger;
+}
+.false{
+    width:36px;
+    height:18px;
+    text-decoration: line-through;
+
+}
+.off{
+    width:160;
+    height:17px;
+    font-size: medium;
+    margin:5px 2px 5px 0;
+}
+.add-cart{
+    width:110px;
+    height:35px;
+    position:absolute;
+    bottom:25px;
+    right:10px;
+    border-radius:20px;
+    background-color: #e85826;
+    border:none;
+    font-weight:600;
+    cursor: pointer;
+
+}
+.r2{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    position:absolute;
+    margin:40px 20px 0 320px;
+
+
+}
+.photo2{
+    background: url(Images/pizza.jpg);
+    background-size:cover;
+}
+.r3{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    position:absolute;
+    margin:40px 20px 20px 640px;
+
+}
+.photo3{
+    background: url(Images/kababroll2.jpg);
+    background-size:cover;
+}   
+.bowls{
+    display: block;
+    width:100px;
+    font-weight: 600;
+    position:absolute;
+    top:350px;
+}
+
+.row2{
+    height:400px;
+    width:100%;
+    /* border:2px solid blue; */
+   position:absolute;
+   top:400px;
+   left:0;
+   display:flex;
+   justify-content: flex-start;
+}
+.add-cart2{
+    position:relative;
+    bottom:50px;
+    left:150px;
+    font-weight:600;
+    cursor: pointer;
+
+}
+.r4{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    left:0;
+    margin:5px 20px 5px 0px;
+}
+.photo4{
+    background: url(Images/bowl1.jpeg);
+    background-size:cover;
+}
+.r5{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo5{
+    background: url(Images/bowl2.jpg);
+    background-size:cover;
+}
+.r6{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo6{
+    background: url(Images/bowl3.jpg);
+    background-size:cover;
+}
+.noodles{
+    display: block;
+    width:100px;
+    font-weight: 600;
+    position:absolute;
+    top:710px;
+}
+.row3{
+    height:400px;
+    width:100%;
+    /* border:2px solid blue; */
+   position:absolute;
+   top:750px;
+   left:0;
+   display:flex;
+   justify-content: flex-start;
+}
+.r7{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    left:0;
+    margin:5px 20px 5px 0px;
+}
+.photo7{
+    background: url(Images/noodles1.JPG);
+    background-size:cover;
+}
+.r8{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo8{
+    background: url(Images/noodles2.JPG);
+    background-size:cover;
+}
+.r9{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo9{
+    background: url(Images/noodles3.jpg);
+    background-size:cover;
+}
+.thalis{
+    display: block;
+    width:100px;
+    font-weight: 600;
+    position:absolute;
+    top:1060px;
+}
+.row4{
+    height:400px;
+    width:100%;
+    /* border:2px solid blue; */
+   position:absolute;
+   top:1130px;
+   left:0;
+   display:flex;
+   justify-content: flex-start;
+}
+.r10{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    left:0;
+    margin:5px 20px 5px 0px;
+}
+.photo10{
+    background: url(Images/thali1.JPG);
+    background-size:cover;
+}
+.r11{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo11{
+    background: url(Images/thali2.JPG);
+    background-size:cover;
+}
+.r12{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo12{
+    background: url(Images/thali3.JPG);
+    background-size:cover;
+}
+.burgers{
+    display: block;
+    width:100px;
+    font-weight: 600;
+    position:absolute;
+    top:1450px;
+}
+.row5{
+    height:400px;
+    width:100%;
+    /* border:2px solid blue; */
+   position:absolute;
+   top:1600px;
+   left:0;
+   display:flex;
+   justify-content: flex-start;
+}
+.r13{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    left:0;
+    margin:5px 20px 5px 0px;
+}
+.photo13{
+    background: url(Images/burger1.jpg);
+    background-size:cover;
+}
+.r14{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo14{
+    background: url(Images/burger2.jpg);
+    background-size:cover;
+}
+.r15{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo15{
+    background: url(Images/burger3.jpg);
+    background-size:cover;
+}
+.sandwitches{
+    display: inline-block;
+    width:500px;
+    font-weight: 600;
+    position:absolute;
+    top:1940px;
+}
+.row6{
+    height:400px;
+    width:100%;
+    /* border:2px solid blue; */
+   position:absolute;
+   top:2010px;
+   left:0;
+   display:flex;
+   justify-content: flex-start;
+}
+.r16{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    left:0;
+    margin:5px 20px 5px 0px;
+}
+.photo16{
+    background: url(Images/sandwitch1.jpeg);
+    background-size:cover;
+}
+.r17{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo17{
+    background: url(Images/sandwitch2.jpg);
+    background-size:cover;
+}
+.r18{
+    width:300px;
+    height:300px;
+    /* border:2px solid red; */
+    margin:5px 20px 5px 0px;
+}
+.photo18{
+    background: url(Images/sandwitch3.JPG);
+    background-size:cover;
+}
+
+.footer1{
+    height:200px;
+    width:98%;
+    border-top:2px solid rgba(74, 72, 72, 0);
+    margin:2000px 0 0 0;
+    display:flex;
+    justify-content:flex-start;
+    
+}
+.fa1{
+   height:200px;
+   width: 200px;
+   /* border: 2px solid rgb(21, 2, 74); */
+  
+}
+.fb{
+    height:200px;
+    width: 200px;
+     /* border: 2px solid rgb(21, 2, 74); */
+ }
+ .fc{
+    height:200px;
+    width: 200px;
+     /* border: 2px solid rgb(21, 2, 74); */
+ }
+ 
+ .last{
+    height:30px;
+    width:110;
+    margin:5px 0 0 0;
+    color:#a5afb6;
+ }
+
+ .last-head{
+    margin:0 0 20px 0;
+ }
+ #last-a{
+    color:#606162;
+    font-size:15px;
+    text-decoration:none;
+    
+    
+
+ }
+#last-a:hover{
+    color:#fb5806;
+    transition-duration: 0.5s;
+   
+  }
+ .subscribe{
+    height:200px;
+    width: 200px;
+    /* border: 2px solid rgb(21, 2, 74); */
+    flex:1;
+ }
+ .info{
+   margin:30px 20px 10px 20px;
+   font-weight: 600;
+   text-align: center;
+   font-size:25px;
+ }
+ .email{
+    margin:10px 0px 50px 210px;
+    width:300px;
+    height:30px;
+    text-align:center;
+    background-color: #f5f7f7;
+    border:none;
+    color:white;
+
+
+ }
+ .btn2{
+    height:30px;
+    border:none;
+    width:80px;
+    margin:2px 2px 2px 0;
+    padding:0 0 0 0;
+    cursor: pointer;
+    background:#f5f7f7;
+ }
+ .icons{
+    height: 30px;
+    width:200px;
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px 2px 3px 200px;
+
+ }
+ .fa-instagram{
+   cursor: pointer;
+ }
+ .fa-facebook{
+    cursor: pointer;
+  }
+  .fa-twitter{
+    cursor: pointer;
+  }
+  .copyright{
+    height:20px;
+    width:97%;
+    display:flex;
+    justify-content:center;
+  }
